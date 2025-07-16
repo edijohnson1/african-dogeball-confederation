@@ -1,0 +1,80 @@
+/* Reset some styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #05445e;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #75e6da;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #d4f1f4;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: white;
+  background-color: #189ab4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #05445e;
+}
+
+footer {
+  background-color: #05445e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
